@@ -1,6 +1,3 @@
-
-####NOTE THAT THIS CODE IS NOT MINE! IT BELONGS TO PAUL MCWHORTER AS THE CODE WAS BUILT UPON ONE OF HIS VPYTHON TUTORIALS.
-
 from vpython import *
 import time
 
@@ -50,18 +47,11 @@ while True:
     if (Xrme >= Rwe or Xlme <= Lwe):
         deltaX = deltaX*(-1)
 
-
-
-
     if (Ytme >= Ce or Ybme <= Flwe):
         deltaY = deltaY*(-1)
-
-
 
     if (Zfme >= Fwe or Zbme <= Bwe):
 
         deltaZ = deltaZ*(-1)
-
-
     
     marble.pos=vector(xPos, yPos, zPos)
